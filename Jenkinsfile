@@ -12,5 +12,11 @@ pipeline{
     echo argurl
     }
    }
+   stage('testing auto trigger')
+   {
+    steps{
+    echo "testing auto triggers"
+    }
+   }
    }
    }
