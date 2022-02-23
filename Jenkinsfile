@@ -6,5 +6,9 @@ pipeline{
      echo "hello madhi"
      }
    }
+   stage('echo parameters')
+   {
+    echo argurl
+   }
    }
    }
