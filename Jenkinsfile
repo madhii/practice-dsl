@@ -9,7 +9,7 @@ pipeline{
    stage('echo parameters')
    {
     steps{
-    echo argurl
+    echo env.argurl
      echo "testing"
      echo "echo"
     }
