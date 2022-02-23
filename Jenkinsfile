@@ -11,6 +11,7 @@ pipeline{
     steps{
     echo argurl
      echo "testing"
+     echo "echo"
     }
    }
  
