@@ -1,8 +1,10 @@
 pipeline{
-agent any
+ agent any
   stages{
-    stage('print'){
-  echo('hlooo')
-    }
-  }
-}
+   stage('github'){
+     steps{
+     echo "hello madhi"
+     }
+   }
+   }
+   }
