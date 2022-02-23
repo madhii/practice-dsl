@@ -15,7 +15,7 @@ pipeline{
    stage('testing auto trigger')
    {
     steps{
-    echo "testing auto triggers"
+    echo "testing triggers"
     }
    }
    }
