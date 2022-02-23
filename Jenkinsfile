@@ -8,7 +8,9 @@ pipeline{
    }
    stage('echo parameters')
    {
+    steps{
     echo argurl
+    }
    }
    }
    }
